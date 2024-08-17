@@ -2,32 +2,50 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.shape {
+  width: 62%;
+  grid-area: 1 / 1 / 2 / 2;
+  height: 520px; /* Adjust as needed */
+  background: rgb(57, 90, 93);
+  background: linear-gradient(180deg, rgba(51,178,186,1) 0%, rgba(43,165,172,1) 61%, rgba(47,171,179,1) 76%, rgba(133,248,255,1) 100%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 80% 100%, 0% 100%);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.shape-2 {
+  grid-area: 1 / 1 / 2 / 2;
+  width: 64%; /* Adjust as needed */
+  height: 520px; /* Adjust as needed */
+  background: #3DBFC7;
+  
+  clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 80% 100%, 0% 100%);
+}
+
+.headerImg {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.cargo-ship {
+  background-image: url('../../public/cargo_ship.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-img {
+  background-image: url('../../public/image_42.png');
+}
+
+.carousel-item-margin {
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .carousel-item-margin {
+    margin-right: 130px;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .carousel-item-margin {
+    margin-right: 70px;
   }
 }
