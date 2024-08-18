@@ -44,6 +44,15 @@
   }
 }
 
+@media only screen and (min-width: 1440px) {
+  .shape {
+    height: 605px;
+  }
+  .shape-2 {
+    height: 605px;
+  }
+}
+
 @media only screen and (min-width: 600px) and (max-width: 768px) {
   .carousel-item-margin {
     margin-right: 70px;

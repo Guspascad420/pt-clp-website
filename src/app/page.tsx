@@ -14,9 +14,11 @@ import {
   DropdownSection,
   DropdownItem
 } from "@nextui-org/dropdown";
+import { use } from "react";
 
 export default function Home() {
   const isBreakpoint = useMediaQuery(768)
+  const isRegularDesktop = useMediaQuery(1024)
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -97,7 +99,7 @@ export default function Home() {
           : (
             <div className="grid">
               <div className="flex justify-end headerImg">
-                <Image src="/header_img.png" alt="logo" width={620} height={620} />
+                <Image src="/header_img.png" alt="logo" width={isRegularDesktop ? 620 : 700} height={620} />
               </div>
               <div className="shape-2 ml-3 flex flex-col justify-center top-0 pl-5">
               </div>
