@@ -211,6 +211,34 @@ export default function Products() {
                         </div>
                     </CardBody>
                 </Card>
+                <Card className="mx-5 mt-10 px-10 py-10 shadow-3xl rounded-xl">
+                    <CardBody>
+                        <div className="flex flex-wrap lg:flex-nowrap">
+                            <div>
+                                <div className="flex items-center">
+                                    <div className="bg-[#EEFEFF] font-bold text-2xl px-3 py-1">
+                                        12
+                                    </div>
+                                    <h1 className="font-bold text-2xl ml-10">Fibrication Yard</h1>
+                                </div>
+                                <p className="mb-5 lg:mb-0 lg:w-[75%] mt-5">An offshore fabrication yard is a specialized 
+                                    industrial facility designed for the construction, assembly, and maintenance 
+                                    of large-scale structures used in offshore environments. These yards are 
+                                    equipped with advanced technologies and machinery to handle the complex 
+                                    demands of fabricating components such as oil and gas platforms, 
+                                    wind turbines, and subsea structures. Typically located near coastal areas, 
+                                    these yards offer deep-water access to facilitate the transportation of heavy 
+                                    and oversized components. They are staffed by skilled engineers and technicians 
+                                    who ensure that all structures meet rigorous safety and quality standards before 
+                                    being deployed to their operational sites. The offshore fabrication yard plays a 
+                                    crucial role in supporting the offshore energy sector by providing efficient and 
+                                    reliable manufacturing solutions for challenging and high-demand projects.
+                                </p>
+                            </div>
+                            <Image src="/cargo.png" alt="" width={500} height={0} className="mt-5 h-[18rem]" />
+                        </div>
+                    </CardBody>
+                </Card>
                 <div className="my-16 flex justify-center">
                     <div className="rounded-lg px-4 py-2 border border-gray-400 cursor-pointer hover:bg-[#2DA9B0] hover:text-white">
                         <a href="/products">1</a>

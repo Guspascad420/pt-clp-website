@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      dropShadow: {
+        '3xl': '0px 5px 30px rgba(0,0,0,0.40)'
+      },
       boxShadow: {
         '3xl': '0px 3px 22px -3px rgba(15,15,15,0.57)'
       },

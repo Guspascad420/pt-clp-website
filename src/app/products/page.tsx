@@ -49,9 +49,9 @@ export default function Products() {
                                     <a href="/" className="mr-5 px-12 py-2 hover:bg-white hover:text-[#3C4751] rounded-xl bg-[#3C4751] border-2 border-white text-white">
                                         Home
                                     </a>
-                                    <Link href="/products" className="border-2 mr-5 border-white px-8 py-2 bg-white rounded-xl text-[#3C4751]">
+                                    <a href="/products" className="border-2 mr-5 border-white px-8 py-2 bg-white rounded-xl text-[#3C4751]">
                                         Products
-                                    </Link>
+                                    </a>
                                     <Link href="" className="border-2 border-white px-7 py-2 hover:bg-white 
           hover:text-[#3C4751] rounded-xl">
                                         Contact Us

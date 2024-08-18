@@ -99,11 +99,11 @@ export default function Home() {
               </div>
               <div className="shape-2 ml-3 flex flex-col justify-center top-0 pl-5">
               </div>
-              <div className="shape flex flex-col justify-center top-0 pl-5">
+              <div className="shape flex flex-col justify-center top-0 pl-10">
                 <Image src="/logo_large.png" alt="logo" width={130} height={130} />
                 <h1 className="font-bold text-[4rem] text-white">PT CAKRAWALA</h1>
                 <h1 className="font-bold text-[3rem] text-[#3C4751]">LANGIT PERSADA</h1>
-                <button className="py-3 mt-3 px-3 w-52 border-2 border-white rounded-xl bg-[#56B7BD] text-white">
+                <button className="py-3 mt-3 px-3 w-52 border-2 hover:bg-[#1D7A7F] duration-300 hover:border-[#1D7A7F] border-white rounded-xl bg-[#56B7BD] text-white">
                   Check Our Products
                 </button>
               </div>
@@ -117,39 +117,39 @@ export default function Home() {
       <div className="py-14 bg-[#EEFEFF]">
         <div className="grid grid-cols-1 md:grid-cols-4 justify-center content-center">
           <div className="flex flex-col items-center">
-            <Image src="/power_plant.png" alt="logo" width={120} height={130} />
+            <Image className="hover:drop-shadow-3xl duration-300 rounded-full" src="/power_plant.png" alt="logo" width={120} height={120} />
             <p className="font-bold">Renewable</p>
             <p>Power plant</p>
           </div>
           <div className="flex mt-5 lg:mt-0 flex-col items-center">
-            <Image src="/frame_16.png" alt="logo" width={120} height={130} />
+            <Image className="hover:drop-shadow-3xl duration-300" src="/frame_16.png" alt="logo" width={120} height={130} />
             <p className="font-bold">Green Hydrogen</p>
             <p>& Amonia</p>
           </div>
           <div className="flex mt-5 lg:mt-0 flex-col items-center">
-            <Image src="/frame_17.png" alt="logo" width={120} height={130} />
+            <Image className="hover:drop-shadow-3xl duration-300" src="/frame_17.png" alt="logo" width={120} height={130} />
             <p className="font-bold">Carbon Capture</p>
             <p>Utilization and Storage</p>
           </div>
           <div className="flex mt-5 lg:mt-0 flex-col items-center">
-            <Image src="/frame_14.png" alt="logo" width={120} height={130} />
+            <Image className="hover:drop-shadow-3xl duration-300" src="/frame_14.png" alt="logo" width={120} height={130} />
             <p className="font-bold">Carbon Capture</p>
             <p>and Storage (CCS)</p>
           </div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 justify-center md:mt-10">
           <div className="flex mt-5 lg:mt-0 flex-col items-center">
-            <Image src="/frame_9.png" alt="logo" width={120} height={130} />
+            <Image className="hover:drop-shadow-3xl duration-300" src="/frame_9.png" alt="logo" width={120} height={130} />
             <p className="font-bold">Blue</p>
             <p>& Amonia</p>
           </div>
           <div className="flex mt-5 lg:mt-0 flex-col items-center">
-            <Image src="/frame_15.png" alt="logo" width={120} height={130} />
+            <Image className="hover:drop-shadow-3xl duration-300" src="/frame_15.png" alt="logo" width={120} height={130} />
             <p className="font-bold">Emission Reduction</p>
             <p>Programme</p>
           </div>
           <div className="flex mt-5 lg:mt-0 flex-col items-center">
-            <Image src="/frame_18.png" alt="logo" width={120} height={130} />
+            <Image className="hover:drop-shadow-3xl duration-300" src="/frame_18.png" alt="logo" width={120} height={130} />
             <p className="font-bold">Transission energy program</p>
             <p>From Coal, Diesel to Natural Gas</p>
           </div>
@@ -187,7 +187,7 @@ export default function Home() {
       </div>
       <div id="contact" className="flex flex-wrap-reverse justify-center lg:justify-normal ml-10 pt-20 items-center">
         <Image src="/worker_asian.png" alt="" width={300} height={300} />
-        <div className="w-[50%] flex flex-col items-center">
+        <div className="w-[50%] md:mb-10 lg:mb-0 mr-auto ml-auto justify-center flex flex-col items-center">
           <h1 className="text-5xl font-bold text-center">"<span className="text-[#1D7C82]">Do not hesitate</span>, It is our pleasure to help."</h1>
           <button onClick={() => window.location.href = "https://wa.me/6281290209598"} className="hover:bg-[#1D7C82] hover:text-white border-2 border-[#1D7C82] mt-5 font-bold text-xl p-3 rounded-xl text-[#1D7C82]">
             Contact Us
