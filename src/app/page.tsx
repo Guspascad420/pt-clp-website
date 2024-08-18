@@ -87,9 +87,11 @@ export default function Home() {
             <div className="flex flex-col py-20 items-center" style={{ background: 'linear-gradient(180deg, rgba(51,178,186,1) 0%, rgba(43,165,172,1) 61%, rgba(47,171,179,1) 76%, rgba(133,248,255,1) 100%)' }}>
               <h1 className="font-bold text-[3rem] text-white text-center">PT CAKRAWALA</h1>
               <h1 className="font-bold text-[2rem] text-[#3C4751]">LANGIT PERSADA</h1>
-              <button className="py-3 mt-3 px-3 w-52 border-2 border-white rounded-xl bg-[#56B7BD] text-white">
-                Check Our Products
-              </button>
+              <div className="mt-5">
+                  <a href="/products" className="py-3 px-3 w-52 border-2 hover:bg-[#1D7A7F] duration-300 hover:border-[#1D7A7F] border-white rounded-xl bg-[#56B7BD] text-white">
+                  Check Our Products
+                  </a>
+                </div>
             </div>
           )
           : (
@@ -103,9 +105,11 @@ export default function Home() {
                 <Image src="/logo_large.png" alt="logo" width={130} height={130} />
                 <h1 className="font-bold text-[4rem] text-white">PT CAKRAWALA</h1>
                 <h1 className="font-bold text-[3rem] text-[#3C4751]">LANGIT PERSADA</h1>
-                <button className="py-3 mt-3 px-3 w-52 border-2 hover:bg-[#1D7A7F] duration-300 hover:border-[#1D7A7F] border-white rounded-xl bg-[#56B7BD] text-white">
+                <div className="mt-5">
+                  <a href="/products" className="py-3 px-3 w-52 border-2 hover:bg-[#1D7A7F] duration-300 hover:border-[#1D7A7F] border-white rounded-xl bg-[#56B7BD] text-white">
                   Check Our Products
-                </button>
+                  </a>
+                </div>
               </div>
             </div>
           )
